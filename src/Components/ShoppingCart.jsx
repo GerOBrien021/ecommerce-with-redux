@@ -43,6 +43,7 @@ const ShoppingCart = () => {
                 </ul>
                 <button className="clear-cart-btn">Clear Cart</button>
             </div>
+            <div>{totalAmount ? <div>'The total amount is {totalAmount}</div> : ''}</div>
         </>
     );
 };
